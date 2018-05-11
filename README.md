@@ -52,6 +52,7 @@ Set up Elasticsearch and kibana to demostrate the elastic search plan as a whole
 `
 GET index_all/plan/12xvxc345ssdsds
 `
+
 `
 GET index_all/_search?q=linkedPlanServices.planserviceCostShares.copay:175
 `
