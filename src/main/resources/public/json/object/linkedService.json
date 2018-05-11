@@ -1,0 +1,26 @@
+{
+  "type":"object",
+  "name":"linkedService",
+  "$schema":"http://json-schema.org/draft-06/schema#",
+  "properties":{
+    "_org":{
+      "$ref":"definitions.json#/_org"
+    },
+    "objectId":{
+      "$ref":"definitions.json#/objectId"
+    },
+    "objectType":{
+      "$ref":"definitions.json#/objectType"
+    },
+    "name":{
+      "$ref":"definitions.json#/name"
+    }
+  },
+  "additionalProperties":false,
+  "required":[
+    "_org",
+    "objectId",
+    "objectType",
+    "name"
+  ]
+}

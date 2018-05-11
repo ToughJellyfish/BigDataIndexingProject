@@ -1,0 +1,30 @@
+{
+  "type":"object",
+  "name":"planCostShares",
+  "$schema":"http://json-schema.org/draft-06/schema#",
+  "properties":{
+    "deductible":{
+      "$ref":"definitions.json#/deductible"
+    },
+    "_org":{
+      "$ref":"definitions.json#/_org"
+    },
+    "objectId":{
+      "$ref":"definitions.json#/objectId"
+    },
+    "objectType":{
+      "$ref":"definitions.json#/objectType"
+    },
+    "copay":{
+      "$ref":"definitions.json#/copay"
+    }
+  },
+  "additionalProperties":false,
+  "required":[
+    "deductible",
+    "_org",
+    "copay",
+    "objectId",
+    "objectType"
+  ]
+}

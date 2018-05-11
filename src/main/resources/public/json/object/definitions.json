@@ -1,0 +1,34 @@
+{
+  "_org":{
+    "type":"string",
+    "description":"Define _org."
+  },
+  "objectId":{
+    "type":"string",
+    "description":"Define Object Id."
+  },
+  "objectType":{
+    "type":"string",
+    "description":"Define Object Type."
+  },
+  "deductible":{
+    "type":"integer",
+    "description":"Define Deductible."
+  },
+  "copay":{
+    "type":"integer",
+    "description":"Define Copay."
+  },
+  "planType":{
+    "type":"string",
+    "description":"Define PlanType."
+  },
+  "creationDate":{
+    "type":"string",
+    "description":"Define CreationDate."
+  },
+  "name":{
+    "type":"string",
+    "description":"Define Name."
+  }
+}
